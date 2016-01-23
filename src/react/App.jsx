@@ -1,6 +1,5 @@
 var React = require("react");
 var ReactDOM = require("react-dom");
+var Weather = require("./components/Weather.jsx");
 
-var List = require("./components/List.jsx");
-
-ReactDOM.render(<List />, document.getElementById("ingredients"));
+ReactDOM.render(<Weather />, document.getElementById("weather"));
